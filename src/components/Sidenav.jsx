@@ -32,6 +32,9 @@ const Sidenav = () => {
           <Link to="/About" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
             <span className="pl-4">About Me</span>
           </Link>
+          <Link to="/Research" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
+            <span className="pl-4">Research</span>
+          </Link>
           <Link to="/Cv" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
             <span className="pl-4">CV
             </span>
