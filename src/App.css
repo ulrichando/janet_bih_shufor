@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: white;
+}
+.background-image {
+    background-image: url('/src/images/janet_bih_fofang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .background-image {
+        background-size: contain;
+    }
+}
+
+.underline{
+    text-decoration: underline;
+    color: #E4CB86;
+}
+
+.blog-post-item {
+    box-sizing: border-box;
+}
+
