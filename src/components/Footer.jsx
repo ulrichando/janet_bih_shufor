@@ -5,7 +5,7 @@ import '/src/css/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-40 p-10 flex flex-col h-screen-80 border-t border-[#E4CB86]">
+    <footer className="bg-black text-white py-40 p-40 flex flex-col h-screen-80 border-t border-[#E4CB86]">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
         <div className="text-white text-center md:text-left">
           <span className="font-bold text-5xl">

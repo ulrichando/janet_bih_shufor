@@ -14,7 +14,7 @@ const Header = () => {
       <button className='text-7xl text-white rounded-full absolute pb-10' style={{ top: '80%', left: '50%', transform: 'translate(-50%, -50%)' }}>
         Welcome to my portfolio website
       </button>
-      <button className='text-1xl text-white rounded-full absolute hidden md:block' style={{ top: '83%', left: '50%', transform: 'translate(-50%, 50%)' }} onClick={handleScrollDown}>
+      <button className='text-1xl text-white rounded-full absolute hidden md:block' style={{ top: '88%', left: '50%', transform: 'translate(-50%, 50%)' }} onClick={handleScrollDown}>
         SCROLL DOWN
       </button>
     </div>

@@ -24,14 +24,12 @@ const BiographyAwardsSection = () => {
           <div>
       
             <ul>
-              <li className="mb-2 pt-20">
-               Neque facilisis a, faucibus orci orci nulla eget dictumst congue interdum etiam aliquam lobortis egestas pretium porttitor eget gravida urna, cursus imperdiet in arcu.
-
-Turpis elementum, ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed.
-
-Commodo sit arcu curabitur egestas metus, dictum lectus vulputate sed pharetra nisl, sed eget pellentesque magna porttitor sed in maecenas maecenas rhoncus neque imperdiet eget bibendum malesuada enim, eu eu ac id pharetra ultrices tempus accumsan aenean nullam egestas viverra.
-              </li>
-              <a href='#'><h5 className="text-2sm font-bold mb-6 underline">READ MORE </h5></a>
+              <li className="mb-2 pt-20 text-3xl">
+                I am a PHD candidate at the University of Maryland, College
+                 Park, <br />and an international guest researcher at the National
+                 Institute of Standards and Technology.
+                 </li>
+              <a href='#'><h5 className="text-5sm font-bold mb-6 underline">Explore my work and research interests below.</h5></a>
               {/* Add more awards if needed */}
             </ul>
           </div>
