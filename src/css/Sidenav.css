@@ -10,9 +10,24 @@
     align-items: center;
 }
 
+/* Updated styles for dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    padding: 15px;
+    display: none;
+    width: 100%;
+}
+
+.sidenav-container:hover .dropdown-menu {
+    display: flex;
+}
+
 .menu-link {
-    padding: 5px 0;
-    text-align: left;
+    padding: 10px 0;
+    text-align: center;
     width: 100%;
     color: white;
     text-decoration: none;
