@@ -1,7 +1,9 @@
 // BlogPost.js
 import React from 'react';
 
-const BlogPost = () => {
+
+
+function BlogPost() {
   return (
     <div className="container mx-auto mt-10">
       <h2 className="text-5xl font-bold mb-6 text-center py-5">Blog Post</h2>
@@ -126,7 +128,7 @@ const BlogPost = () => {
         {/* Add more blog post items as needed */}
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default BlogPost;

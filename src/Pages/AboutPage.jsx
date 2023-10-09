@@ -34,11 +34,11 @@ const AboutPage = () => {
           <div className="container mx-auto flex flex-col items-center p-8 mb-8">
       
         <h2 className="text-5xl  text-center mb-8 text-white">JANET BIH HAS OVER FOURTY <br /> ROLES IN HER REPERTOIRE</h2>
-          <p className='flex items-center text-1xl font-bold text-middle  mb-8 px-20 py-20 line-height '>Neque facilisis a, faucibus 
-orci orci nulla eget dictumst congue interdum <br />etiam aliquam lobortis egestas pretium porttitor eget gravida urna,<br /> cursus imperdiet in arcu.
-Turpis elementum, ultrices dui maecenas quisque cras dui sed porttitor <br /> aliquam morbi libero egestas lacus sed.
-Commodo sit arcu curabitur egestas metus, dictum lectus vulputate sed pharetra nisl, <br />
-sed eget pellentesque magna porttitor sed in maecenas maecenas rhoncus neque imperdiet<br />
+          <p className='flex items-center text-1xl font-bold  py-20 line-height px-40 '>Neque facilisis a, faucibus 
+orci orci nulla eget dictumst congue interdum etiam aliquam lobortis egestas pretium porttitor eget gravida urna, cursus imperdiet in arcu.
+Turpis elementum, ultrices dui maecenas quisque cras dui sed porttitor  aliquam morbi libero egestas lacus sed.
+Commodo sit arcu curabitur egestas metus, dictum lectus vulputate sed pharetra nisl, 
+sed eget pellentesque magna porttitor sed in maecenas maecenas rhoncus neque imperdiet
  eget bibendum malesuada enim, eu eu ac id pharetra ultrices tempus accumsan aenean nullam egestas viverra.</p>
         <div className="bg-black text-white pt-100 pb-20">
           <div className="bg-black text-white p-12 flex justify-center pb-40">
