@@ -2,38 +2,23 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Sidenav from '../components/Sidenav'
-import { useCallback } from 'react';
-import { useDropzone } from 'react-dropzone';
-import '/src/css/FileUpload.css'; 
+import Subscribe from '../components/Subscribe'
 
-
-const CvPage = () => {
-
-  const onDrop = useCallback((acceptedFiles) => {
-    // Handle the uploaded files here
-    console.log('Uploaded files:', acceptedFiles);
-    // You can send the files to the backend for further processing (e.g., email sending)
-  }, []);
-
-  const { getRootProps, getInputProps } = useDropzone({ onDrop });
-
+const Cv= () => {
   return (
-    <div>
-    <Navbar />
-    <Sidenav />
-    <div className='h-screen flex'>
-
-
-    </div>
-    <div className='p-10'>
-      <div {...getRootProps()} className="dropzone">
-        <input {...getInputProps()} />
-        <p>Drag & drop a file here, or click to select a file</p>
+    <div>  
+      <Navbar />
+      <Sidenav />
+       <div className="container mx-auto mt-10">
+      <h2 className="text-7xl font-bold mb-6 text-center py-10">CV</h2>
+      <section className="bg-black py-50 p-3 text-white pt-40">
+         <h2 className="text-8xl font-bold mb-6 text-center py-40">COMING SOON ...</h2>
+      </section>
       </div>
-    </div>
-    <Footer />
+      <Subscribe />
+      <Footer />
     </div>
   )
 }
 
-export default CvPage
+export default Cv

@@ -38,13 +38,10 @@ const AboutPage = () => {
             JANET BIH HAS OVER FORTY <br /> ROLES IN HER REPERTOIRE
           </h2>
           <p className="flex items-center text-sm md:text-base font-bold py-10 md:py-20 line-height px-4 md:px-40">
-            Neque facilisis a, faucibus orci orci nulla eget dictumst congue
-            interdum etiam aliquam lobortis egestas pretium porttitor eget
-            gravida urna, cursus imperdiet in arcu. Commodo sit arcu curabitur
-            egestas metus, dictum lectus vulputate sed pharetra nisl, sed eget
-            pellentesque magna porttitor sed in maecenas maecenas rhoncus neque
-            imperdiet eget bibendum malesuada enim, eu eu ac id pharetra
-            ultrices tempus accumsan aenean nullam egestas viverra.
+            Janet Bih Shufor is a PHD candidate in the department of Technology learning at the University of Maryland College Park. Janet is an international guest researcher at the National Institute of Standards and Technology, researching on artificial intelligence with the Visualization and Usability group. She has a strong interest in the Learning Sciences, Artificial Intelligence and Technology Design. Her current research is primarily concerned with Representations and Computational Thinking in robotics environments.  Her broader interests are robotics and artificial intelligence, research and entrepreneurship.
+            Janet is working on research to design tools and activities in the areas of engineering and Interactive Computing (IC). She designs tools and activities focused on solving real-world challenges through computational capabilities that empower people and machines to affect the world around them. She does research work in redefining the human experience of computing and robotics environments. Her work helps support human interactions with technology in areas such as artificial intelligence, computational thinking, robotics, social and human-centered computing, and human machine interactions.
+
+
           </p>
           <div className="bg-black text-white pt-8 pb-20">
             <div className="bg-black text-white p-4 md:p-12 flex justify-center pb-20">
