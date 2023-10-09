@@ -1,4 +1,7 @@
 import React from 'react';
+import image1 from '/src/images/image1.jpg'; // Import your images
+import image2 from '/src/images/image2.jpg';
+import image3 from '/src/images/image3.jpg';
 
 const CombinedSectionComponent = () => {
   const years = ['1992', '1993', '1994', '1995'];
@@ -14,17 +17,17 @@ const CombinedSectionComponent = () => {
     {
       title: 'Play Title 1',
       description: 'Description of the play goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      imageSrc: 'src/images/1.jpg',
+      imageSrc: image1, // Use the imported images
     },
     {
       title: 'Play Title 2',
       description: 'Description of the play goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      imageSrc: 'src/images/2.jpg',
+      imageSrc: image2,
     },
     {
       title: 'Play Title 3',
       description: 'Description of the play goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      imageSrc: 'src/images/3.jpg',
+      imageSrc: image3,
     },
   ];
 
