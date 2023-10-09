@@ -2,6 +2,10 @@
     background-color: black;
     color: white;
 }
+body {
+    font-family: 'Arial', sans-serif;
+    /* Change to your desired font-family */
+}
 .background-image {
     background-image: url('/src/images/janet_bih_fofang.jpg');
     background-size: cover;
