@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BiographyAwardsSection = () => {
   const sectionStyle = {
@@ -8,6 +9,7 @@ const BiographyAwardsSection = () => {
     color: '#fff',
     boxShadow: 'inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5)' /* Top inner shadow style */
   };
+  
   return (
      <section className="bg-black py-50 p-3 text-white pt-40">
       <div className="container mx-auto">
@@ -29,7 +31,7 @@ const BiographyAwardsSection = () => {
                  Park, <br />and an international guest researcher at the National
                  Institute of Standards and Technology.
                  </li>
-              <a href='#'><h5 className="text-5sm font-bold mb-6 underline">Explore my work and research interests below.</h5></a>
+              <Link to='/About'className="text-5sm font-bold mb-6 underline" >Explore my work and research interests below.</Link>
               {/* Add more awards if needed */}
             </ul>
           </div>
