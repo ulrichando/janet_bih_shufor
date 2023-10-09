@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import '/src/css/Sidenav.css'; // Import the CSS for additional styling
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -24,26 +25,25 @@ const Sidenav = () => {
       />
 
       {nav && (
-        <div className="fixed w-full flex flex-col justify-center z-20 text-white items-center mt-15">
+        <div className="sidenav-container">
           {/* Content of the expanded menu */}
-          <Link to="/" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">Home</span>
+          <Link to="/" className="menu-link">
+            Home
           </Link>
-          <Link to="/About" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">About Me</span>
+          <Link to="/About" className="menu-link">
+            About Me
           </Link>
-          <Link to="/Research" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">Research</span> {/*this is an update*/}
+          <Link to="/Research" className="menu-link">
+            Research
           </Link>
-          <Link to="/Cv" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">CV
-            </span>
+          <Link to="/Cv" className="menu-link">
+            CV
           </Link>
-          <Link to="/Publication" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">Publication</span>
+          <Link to="/Publication" className="menu-link">
+            Publication
           </Link>
-          <Link to="/Contact" className="w-[100%] flex justify-top items-left shadow-lg bg-black p-2 cursor-pointer">
-            <span className="pl-4">Contact</span>
+          <Link to="/Contact" className="menu-link">
+            Contact
           </Link>
         </div>
       )}
