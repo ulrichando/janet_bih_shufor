@@ -26,13 +26,14 @@ const AboutPage = () => {
         <h2 className="text-4xl md:text-7xl font-bold mb-6 text-center py-5">About Me</h2>
 
         {/* Big picture of the person */}
-         <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full"> {/* Centered image */}
+        <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full"> {/* Centered image */}
           <img
             src={janet_bih_image}
             alt="Person's Image"
-            className="w-2/3 md:w-1/2 h-auto"
+            className="w-2/3 md:w-1/2 h-auto" {/* Adjusted image width */}
           />
         </div>
+
         <div className="container mx-auto flex flex-col items-center p-4 mb-8">
           <h2 className="text-3xl md:text-5xl text-center mb-4 md:mb-8 text-white">
             JANET BIH HAS OVER FORTY <br /> ROLES IN HER REPERTOIRE
@@ -46,6 +47,7 @@ const AboutPage = () => {
             imperdiet eget bibendum malesuada enim, eu eu ac id pharetra
             ultrices tempus accumsan aenean nullam egestas viverra.
           </p>
+
           <div className="bg-black text-white pt-8 pb-20">
             <div className="bg-black text-white p-4 md:p-12 flex justify-center pb-20">
               <div className="w-full max-w-full">
@@ -64,7 +66,7 @@ const AboutPage = () => {
                   <tbody>
                     {years.map((year, index) => (
                       <tr key={index}>
-                        <td className="w-1/4 md:w-1/6 text-base md:text-2xl p-4 text-[#E4CB86]">
+                        <td className="w-1/4 md:w-1/6 text-base md:text-2xl p-4 text-[#E4CB86] text-center"> {/* Center align content */}
                           {year}
                         </td>
                         <td className="w-3/4 md:w-5/6 p-4">
@@ -86,7 +88,6 @@ const AboutPage = () => {
 
             <div className="flex flex-col items-center pb-10">
               <div className="flex justify-center my-10 mb-5">
-                {/* Row 1 */}
                 <div className="mx-2 mt-5">
                   <img
                     src={meal2_image}
@@ -136,9 +137,8 @@ const AboutPage = () => {
 
               <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10">
-                  {/* First Column */}
                   {[...Array(6)].map((_, index) => (
-                    <div key={index}>
+                    <div key={index} className="text-center"> {/* Center-align content */}
                       <h2 className="text-lg md:text-4xl font-bold mb-3 md:mb-6 text-[#E4CB86]">
                         1990
                       </h2>

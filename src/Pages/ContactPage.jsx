@@ -23,17 +23,17 @@ const ContactPage = () => {
   }, []);
 
   return (
-    <div className="contact-page bg-black"> {/* Change the background color to black */}
+    <div className="contact-page bg-black min-h-screen"> {/* Change the background color to black */}
       <Navbar />
       <Sidenav />
       <div className="container mx-auto mt-1 content pb-20">
-        <h2 className="text-7xl mb-10  text-center mt-1 text-white py-5">Contact Us</h2> {/* Change text color to white */}
-        <div className="flex">
-          <div id="map" className="w-1/2 h-400px mr-4" /> {/* Google Map */}
-          <form className="max-w-md w-1/2">
-            <h1 className='text-2xl py-2'>SEND A MESSAGE</h1>
-            <p className='py-2'>Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed. </p>
-            <div className="mb-6">
+        <h2 className="text-4xl md:text-7xl font-bold mb-10 text-center mt-1 text-white py-5">Contact Us</h2> {/* Change text color to white */}
+        <div className="flex flex-col md:flex-row">
+          <div id="map" className="w-full md:w-1/2 h-64 md:h-auto mb-4 md:mb-0"></div> {/* Google Map */}
+          <form className="w-full md:w-1/2">
+            <h1 className='text-2xl py-2 text-white'>SEND A MESSAGE</h1>
+            <p className='py-2 text-white'>Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed. </p>
+            <div className="mb-4">
               <label className="block mb-2 text-white">First Name</label> {/* Change label text color to white */}
               <input
                 type="text"
@@ -41,7 +41,7 @@ const ContactPage = () => {
                 placeholder="Your first name"
               />
             </div>
-            <div className="mb-6">
+            <div className="mb-4">
               <label className="block mb-2 text-white">Last Name</label> {/* Change label text color to white */}
               <input
                 type="text"
@@ -49,7 +49,7 @@ const ContactPage = () => {
                 placeholder="Your last name"
               />
             </div>
-            <div className="mb-6">
+            <div className="mb-4">
               <label className="block mb-2 text-white">Email Address</label> {/* Change label text color to white */}
               <input
                 type="email"
@@ -57,7 +57,7 @@ const ContactPage = () => {
                 placeholder="Your email address"
               />
             </div>
-            <div className="mb-6">
+            <div className="mb-4">
               <label className="block mb-2 text-white">Subject</label> {/* Change label text color to white */}
               <input
                 type="text"
@@ -75,7 +75,7 @@ const ContactPage = () => {
             </div>
             <button
               type="submit"
-              className="bg-black-500 text-white px-4 py-2 rounded hover:bg-white-700 border border-white"
+              className="bg-black text-white px-4 py-2 rounded hover:bg-white-700 border border-white"
             >
               SEND MESSAGE
             </button>
