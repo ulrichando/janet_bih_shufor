@@ -7,7 +7,7 @@ const Subscribe = () => {
   };
 
   return (
-    <section className="bg-black text-white py-40 border-t border-[#E4CB86]">
+    <section className="bg-black text-white py-40 border-t border-b border-[#E4CB86]">
       <div className="container mx-auto flex flex-col items-center px-6">
         <h2 className="text-3xl font-bold mb-6">Subscribe to our Newsletter</h2>
         <p className="mb-8">Stay updated with our latest news and updates.</p>

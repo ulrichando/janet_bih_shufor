@@ -1,60 +1,48 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import '/src/css/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-40 p-40 flex flex-col h-screen-80 border-t border-[#E4CB86]">
+    <footer className="bg-black text-white py-10 md:py-20 flex flex-col">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
-        <div className="text-white text-center md:text-left">
-          <span className="font-bold text-5xl">
+        <div className="text-white text-center md:text-left mb-4 md:mb-0">
+          <span className="font-bold text-2xl md:text-4xl">
             JANET BIH <br />SHUFOR
           </span>
         </div>
-        <nav className="my-4 md:my-0">
-          {/* Navigation links go here */}
-          <ul className="flex flex-col md:flex-row items-center">
-            <li className="md:mr-8 mb-2 md:mb-0">
-              <Link to="/privacy-policy" className="text-white">
-                Privacy Policy
-              </Link>
-            </li>
-            <li className="md:mr-8 mb-2 md:mb-0">
-              <Link to="/terms-of-use" className="text-white">
-                Terms of Use
-              </Link>
-            </li>
-             <li className="md:mr-8 mb-2 md:mb-0">
-              <Link to="/terms-of-use" className="text-white">
-                Sitemap
-              </Link>
-            </li>
-            {/* Add more links with appropriate paths */}
-          </ul>
+        <nav className="my-4 md:my-0 flex flex-col items-center md:flex-row">
+          <Link to="/privacy-policy" className="text-white md:mr-8 mb-2 md:mb-0">
+            Privacy Policy
+          </Link>
+          <Link to="/terms-of-use" className="text-white md:mr-8 mb-2 md:mb-0">
+            Terms of Use
+          </Link>
+          <Link to="/sitemap" className="text-white">
+            Sitemap
+          </Link>
         </nav>
         <div className="flex">
-          {/* Social icons go here */}
           <div className="mr-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="text-white text-lg" />
+              <FaFacebook className="text-white text-xl" />
             </a>
           </div>
           <div className="mr-4">
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-white text-lg" />
+              <FaTwitter className="text-white text-xl" />
             </a>
           </div>
           <div>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="text-white text-lg" />
+              <FaInstagram className="text-white text-xl" />
             </a>
           </div>
         </div>
       </div>
-      {/* Copyright */}
-      <div className="text-center mt-auto">
-        <p className="text-sm md:text-base mt-10">&copy; 2023 Janet Bih Shufor. All Rights Reserved.</p>
+      <div className="text-center mt-4">
+        <p className="text-xs md:text-sm">&copy; 2023 Janet Bih Shufor. All Rights Reserved.</p>
       </div>
     </footer>
   );
