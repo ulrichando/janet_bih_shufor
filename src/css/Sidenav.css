@@ -15,7 +15,8 @@
 /* Updated styles for dropdown menu */
 .dropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 60px;
+    /* Adjust as needed */
     left: 0;
     background-color: black;
     padding: 15px;
@@ -27,11 +28,12 @@
 
 .sidenav-container:hover .dropdown-menu {
     display: flex;
+    flex-direction: column;
 }
 
 .menu-link {
     padding: 10px 0;
-    text-align: left;
+    text-align: center;
     width: 100%;
     color: white;
     text-decoration: none;
