@@ -36,45 +36,45 @@ const BiographyAwardsSection = () => {
         </div>
       </div>
     
-    <section className="bg-black py-16 p-10 pt-40">
+     <section className="bg-black py-16 p-10 pt-40">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div className="md:col-span-1 lg:col-span-2">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 1 Paragraph. Neque facilisis a, faucibus orci orci nulla eget dictumst congue interdum etiam aliquam lobortis egestas pretium porttitor eget gravida urna, cursus imperdiet in arcu.
             </p>
           </div>
 
-          <div className="md:col-span-1 lg:col-span-1">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 2 Paragraph. Turpis elementum, ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed.
             </p>
           </div>
 
-          <div className="md:col-span-2 lg:col-span-3">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 3 Paragraph. Commodo sit arcu curabitur egestas metus, dictum lectus vulputate sed pharetra nisl, sed eget pellentesque magna porttitor sed in maecenas maecenas rhoncus neque imperdiet eget bibendum malesuada enim, eu eu ac id pharetra ultrices tempus accumsan aenean nullam egestas viverra.
             </p>
           </div>
 
-          <div className="md:col-span-1 lg:col-span-1">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 4 Paragraph. Morbi libero egestas lacus sed commodo sit arcu curabitur egestas metus, dictum lectus vulputate sed pharetra nisl, sed eget pellentesque magna porttitor sed in maecenas maecenas rhoncus neque imperdiet eget bibendum malesuada enim.
             </p>
           </div>
 
-          <div className="md:col-span-1 lg:col-span-1">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 5 Paragraph. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
           </div>
 
-          <div className="md:col-span-1 lg:col-span-1">
+          <div className="flex flex-col">
             <h2 className="text-4xl font-bold mb-6 text-[#E4CB86]">1990</h2>
             <p>
               Column 6 Paragraph. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
