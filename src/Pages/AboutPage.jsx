@@ -26,11 +26,11 @@ const AboutPage = () => {
         <h2 className="text-4xl md:text-7xl font-bold mb-6 text-center py-5">About Me</h2>
 
         {/* Big picture of the person */}
-        <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full"> {/* Centered image */}
+        <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full"> 
           <img
             src={janet_bih_image}
             alt="Person's Image"
-            className="w-2/3 md:w-1/2 h-auto" {/* Adjusted image width */}
+            className="w-2/3 md:w-1/2 h-auto"
           />
         </div>
 
