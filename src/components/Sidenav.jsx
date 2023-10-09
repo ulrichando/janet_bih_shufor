@@ -14,7 +14,7 @@ const Sidenav = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className={`absolute top-6 right-4 z-[99] md:hidden bg-[#E4CB86] p-2 ${nav ? 'hidden' : ''}`}
+        className={`absolute top-6 right-4 z-[99] md:hidden bg-[#E4CB86]  p-2 ${nav ? 'hidden' : ''}`}
         style={{ fontSize: '30px', color: 'black' }}
       />
 
