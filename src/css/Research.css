@@ -19,7 +19,7 @@ section {
 
 h3{
     font-size: 20px;
-    color: #d79e0e;
+    color: #E4CB86;
 }
 .cards {
     display: flex;
@@ -39,13 +39,13 @@ h3{
     border: 1px solid #fff;
 }
 .card:hover{
-    border-color: #d6ba74
+    border-color: #E4CB86;
 }
 
 .btn{
     border: none;
     outline: none;
-    background: #d79e0e;
+    background: #E4CB86;
     color: #fff;
     border-radius: 10px;
     max-width: 120px;
@@ -57,12 +57,12 @@ h3{
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;
-    border: 1px solid #d79e0e;
+    border: 1px solid #E4CB86;
 }
 
 .btn:hover {
     background-color: #fff;
-    color: #d79e0e;
+    color: #E4CB86;
 
 }
 
