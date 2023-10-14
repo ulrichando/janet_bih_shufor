@@ -83,7 +83,7 @@ const CombinedSectionComponent = () => {
                   <td className="w-3/4 p-4">
                     <div>
                       <h3 className="text-xl font-bold">{titles[index]}</h3>
-                      <p className="w-3/4.5 text-lg text-justify p-2">
+                      <p className="w-3/4.5 text-1xl text-justify p-2">
                         {paragraphs[index]}
                       </p>
                     </div>
