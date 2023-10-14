@@ -13,7 +13,7 @@ const ContactPage = () => {
       <Sidenav />
       <div className="container mx-auto mt-1 content pb-20 flex flex-col justify-center items-center">
         <h2 className="text-4xl md:text-7xl font-bold mb-10 text-center mt-1 text-white py-5">
-          Contact Us
+          Contact Me
         </h2>
 
         <div className="flex flex-col md:flex-row justify-center w-full">
