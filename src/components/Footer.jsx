@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex">
           <div className="mr-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/janet.fofang"
               target="_blank"
               rel="noopener noreferrer"
             >
