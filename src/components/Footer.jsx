@@ -13,15 +13,18 @@ const Footer = () => {
             SHUFOR
           </span>
         </div>
-        <nav className="my-4 md:my-0 flex flex-col items-center md:flex-row">
+        <nav className="my-4 md:my-0 flex flex-col items-center md:flex-row pr-4">
           <Link to="/PrivacyPolicy" className="text-white md:mr-8 mb-2 md:mb-0">
             Privacy Policy
           </Link>
           <Link to="/TermsOfUse" className="text-white md:mr-8 mb-2 md:mb-0">
             Terms of Use
           </Link>
-          <Link to="/Sitemap" className="text-white">
+          <Link to="/Sitemap" className="text-white md:mr-8 mb-2 md:mb-0">
             Sitemap
+          </Link>
+          <Link to="/Contact" className="text-white md:mr-8 mb-2 md:mb-0">
+            Contact
           </Link>
         </nav>
         <div className="flex">
