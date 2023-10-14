@@ -4,24 +4,10 @@ import Footer from '../components/Footer';
 import Sidenav from '../components/Sidenav';
 import '/src/css/ContactPage.css';
 import Subscribe from '../components/Subscribe';
+import mapImage from '/src/images/contact.jpg';
 
 const ContactPage = () => {
-  useEffect(() => {
-    // Initialize Google Map
-    const map = new window.google.maps.Map(document.getElementById('map'), {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 8,
-    });
-
-    // Additional map configurations and markers can be added here
-    // Example:
-    // const marker = new window.google.maps.Marker({
-    //   position: { lat: -34.397, lng: 150.644 },
-    //   map: map,
-    //   title: 'Marker Title',
-    // });
-  }, []);
-
+ 
   return (
     <div className="contact-page bg-black min-h-screen">
       <Navbar />
@@ -29,8 +15,8 @@ const ContactPage = () => {
       <div className="container mx-auto mt-1 content pb-20">
         <h2 className="text-4xl md:text-7xl font-bold mb-10 text-center mt-1 text-white py-5">Contact Us</h2>
         <div className="flex flex-col md:flex-row">
-          <div id="map" className="w-full md:w-1/2 h-64 md:h-auto mb-4 md:mb-0"></div>
-          <form className="w-full md:w-1/2 px-4"> {/* Added padding on the x-axis */}
+          <img src={mapImage} alt="Map" className="w-full md:w-1/2 h-auto md:h-full mb-4 md:mb-0" style={{ objectFit: 'cover', height: '800px' , width: '700px' }} />
+          <form className="w-full md:w-1/2 px-4" style={{ marginTop: 'auto', marginBottom: 'auto' }}>
             <h1 className='text-2xl py-2 text-white'>SEND A MESSAGE</h1>
             <p className='py-2 text-white'>Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed. </p>
             <div className="mb-4">
