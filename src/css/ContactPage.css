@@ -1,14 +1,10 @@
-/* ContactPage.css */
-.contact-page {
-    margin: 0;
-    padding: 0;
-}
+
 
 @media (max-width: 767px) {
     .contact-page img {
         width: 100%;
         /* Adjust the width for mobile devices */
-        height: auto;
+        height: 200px;
         /* Maintain the aspect ratio */
     }
 }
