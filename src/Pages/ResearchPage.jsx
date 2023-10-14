@@ -6,22 +6,22 @@ import Subscribe from "../components/Subscribe";
 
 const researchProjects = [
   {
-    title: "Project 1",
+    title: "Representations in Robotics",
     description: "Description for Project 1",
     findings: "Key findings for Project 1",
   },
   {
-    title: "Project 2",
+    title: "Computational Thinking",
     description: "Description for Project 2",
     findings: "Key findings for Project 2",
   },
   {
-    title: "Project 3",
+    title: "Learning Sciences",
     description: "Description for Project 3",
     findings: "Key findings for Project 3",
   },
   {
-    title: "Project 4",
+    title: "Artificial Intelligence",
     description: "Description for Project 4",
     findings: "Key findings for Project 4",
   },
@@ -33,30 +33,30 @@ const ResearchPage = () => {
       <Navbar />
       <Sidenav />
       <div className="container mx-auto mt-10">
-        <h2 className="text-7xl font-bold mb-6 text-center py-10">Reseach</h2>
-        <section className="container mx-auto p-5">
+        <h2 className="text-7xl font-bold mb-6 text-center py-10">Research</h2>
+        <section className="container mx-auto p-5 text-black">
           <div className="container mx-auto p-5">
-            <h1 className="text-3xl font-bold mb-5">Topics</h1>
+            <h1 className="text-3xl font-bold mb-5 text-[#E4CB86]">Topics</h1>
 
             <div className="flex flex-wrap -mx-4">
               {researchProjects.map((project, index) => (
                 <div
                   key={index}
-                  className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-8 mb-8 "
+                  className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 px-8 mb-8"
                 >
-                  <div className="bg-white rounded shadow p-10">
-                    <h2 className="text-xl font-bold mb-2 text-black bg-white text-center">
+                  <div className="bg-[#E4CB86] rounded shadow p-6 h-full">
+                    <h2 className="text-xl font-bold mb-2 text-center bg-[#E4CB86] text-black">
                       {project.title}
                     </h2>
-                    <div className="text-black bg-white">
-                      <p className="bg-white text-black">
-                        <strong className="bg-white text-black">
+                    <div className="text-black bg-[#E4CB86]">
+                      <p className="text-black bg-[#E4CB86]">
+                        <strong className="text-black bg-[#E4CB86]">
                           Description:
                         </strong>{" "}
                         {project.description}
                       </p>
-                      <p className="bg-white text-black">
-                        <strong className="bg-white text-black">
+                      <p className="text-black bg-[#E4CB86]">
+                        <strong className="text-black bg-[#E4CB86]">
                           Key Findings:
                         </strong>{" "}
                         {project.findings}
@@ -65,16 +65,6 @@ const ResearchPage = () => {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div>
-              <h2 className="text-xl font-bold mb-2">Key Research Areas:</h2>
-              <ul>
-                <li className="text-white">Representations in Robotics</li>
-                <li className="text-white">Computational Thinking</li>
-                <li className="text-white">Learning Sciences</li>
-                <li className="text-white">Artificial Intelligence</li>
-              </ul>
             </div>
           </div>
         </section>
