@@ -1,10 +1,10 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Sidenav from '../components/Sidenav';
-import '/src/css/ContactPage.css';
-import Subscribe from '../components/Subscribe';
-import mapImage from '/src/images/contact.jpg';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Sidenav from "../components/Sidenav";
+import "/src/css/ContactPage.css";
+import Subscribe from "../components/Subscribe";
+import mapImage from "/src/images/contact.jpg";
 
 const ContactPage = () => {
   return (
@@ -12,21 +12,26 @@ const ContactPage = () => {
       <Navbar />
       <Sidenav />
       <div className="container mx-auto mt-1 content pb-20 flex flex-col justify-center items-center">
-        <h2 className="text-4xl md:text-7xl font-bold mb-10 text-center mt-1 text-white py-5">Contact Us</h2>
-        <div className="flex flex-col md:flex-row items-center w-full">
-             <img
+        <h2 className="text-4xl md:text-7xl font-bold mb-10 text-center mt-1 text-white py-5">
+          Contact Us
+        </h2>
+
+        <div className="flex flex-col md:flex-row justify-center w-full">
+          <img
             src={mapImage}
             alt="Map"
-            className="w-full md:w-1/2 mb-4 md:mb-0"
+            className="w-auto h-auto md:w-auto md:h-1/2 mb-4 md:mb-0"
             style={{
-              objectFit: 'cover',
-              height: '800px',
-              width: '100%',
+              objectFit: "cover",
             }}
           />
-          <form className="w-full md:w-1/2 px-4">
+
+          <form className="w-auto h-auto md:w-auto md:h-auto px-4 pt-20 ">
             <h1 className="text-2xl py-2 text-white">SEND A MESSAGE</h1>
-            <p className="py-2 text-white">Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed.</p>
+            <p className="py-2 text-white">
+              Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi
+              libero egestas lacus sed.
+            </p>
             <div className="mb-4">
               <label className="block mb-2 text-white">First Name</label>
               <input
@@ -76,6 +81,7 @@ const ContactPage = () => {
           </form>
         </div>
       </div>
+
       <Subscribe />
       <Footer />
     </div>

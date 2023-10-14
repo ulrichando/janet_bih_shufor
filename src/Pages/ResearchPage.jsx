@@ -44,19 +44,19 @@ const ResearchPage = () => {
                   key={index}
                   className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4 px-8 mb-8"
                 >
-                  <div className="bg-[#E4CB86] rounded shadow p-6 h-full">
-                    <h2 className="text-xl font-bold mb-2 text-center bg-[#E4CB86] text-black">
+                  <div className="bg-[#ffffff] rounded shadow p-6 h-full">
+                    <h2 className="text-xl font-bold mb-2 text-center bg-[#ffffff] text-black">
                       {project.title}
                     </h2>
-                    <div className="text-black bg-[#E4CB86]">
-                      <p className="text-black bg-[#E4CB86]">
-                        <strong className="text-black bg-[#E4CB86]">
+                    <div className="text-black bg-[#ffffff]">
+                      <p className="text-black bg-[#ffffff]">
+                        <strong className="text-black bg-[#ffffff]">
                           Description:
                         </strong>{" "}
                         {project.description}
                       </p>
-                      <p className="text-black bg-[#E4CB86]">
-                        <strong className="text-black bg-[#E4CB86]">
+                      <p className="text-black bg-[#ffffff]">
+                        <strong className="text-black bg-[#ffffff]">
                           Key Findings:
                         </strong>{" "}
                         {project.findings}
