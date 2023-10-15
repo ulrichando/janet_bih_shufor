@@ -1,21 +1,20 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Sidenav from '../components/Sidenav';
-import Subscribe from '../components/Subscribe';
-import janet_bih_image from '../images/janet_bih.png';
-import meal2_image from '../images/2.jpg';
-import meal3_image from '../images/3.jpg';
-import meal1_image from '../images/1.jpg';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Sidenav from "../components/Sidenav";
+import Subscribe from "../components/Subscribe";
+import janet_bih_image from "../images/janet_bih.png";
+import meal2_image from "../images/2.jpg";
+import meal3_image from "../images/3.jpg";
+import meal1_image from "../images/1.jpg";
 
 const AboutPage = () => {
-  const years = ['1992', '1993', '1994', '1995'];
-  const titles = ['Title 1', 'Title 2', 'Title 3', 'Title 4'];
+  const years = ["1992", "1993", "1994", "1995"];
+  const titles = ["Title 1", "Title 2", "Title 3", "Title 4"];
   const paragraphs = [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    'New paragraph for year 1995',
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "New paragraph for year 1995",
   ];
 
   return (
@@ -23,10 +22,12 @@ const AboutPage = () => {
       <Navbar />
       <Sidenav />
       <div className="container mx-auto mt-10">
-        <h2 className="text-4xl md:text-7xl font-bold mb-6 text-center py-5">About Me</h2>
+        <h2 className="text-4xl md:text-7xl font-bold mb-6 text-center py-5">
+          About Me
+        </h2>
 
         {/* Big picture of the person */}
-         <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full">
+        <div className="max-w-full mx-auto mb-4 flex justify-center items-center h-full">
           <img
             src={janet_bih_image}
             alt="Person's Image"
@@ -38,10 +39,25 @@ const AboutPage = () => {
             JANET BIH HAS OVER FORTY <br /> ROLES IN HER REPERTOIRE
           </h2>
           <p className="flex items-center text-sm md:text-base font-bold py-10 md:py-20 line-height px-4 md:px-40">
-            Janet Bih Shufor is a PHD candidate in the department of Technology learning at the University of Maryland College Park. Janet is an international guest researcher at the National Institute of Standards and Technology, researching on artificial intelligence with the Visualization and Usability group. She has a strong interest in the Learning Sciences, Artificial Intelligence and Technology Design. Her current research is primarily concerned with Representations and Computational Thinking in robotics environments.  Her broader interests are robotics and artificial intelligence, research and entrepreneurship.
-            Janet is working on research to design tools and activities in the areas of engineering and Interactive Computing (IC). She designs tools and activities focused on solving real-world challenges through computational capabilities that empower people and machines to affect the world around them. She does research work in redefining the human experience of computing and robotics environments. Her work helps support human interactions with technology in areas such as artificial intelligence, computational thinking, robotics, social and human-centered computing, and human machine interactions.
-
-
+            Janet Bih Shufor is a PHD candidate in the department of Technology
+            learning at the University of Maryland College Park. Janet is an
+            international guest researcher at the National Institute of
+            Standards and Technology, researching on artificial intelligence
+            with the Visualization and Usability group. She has a strong
+            interest in the Learning Sciences, Artificial Intelligence and
+            Technology Design. Her current research is primarily concerned with
+            Representations and Computational Thinking in robotics environments.
+            Her broader interests are robotics and artificial intelligence,
+            research and entrepreneurship. Janet is working on research to
+            design tools and activities in the areas of engineering and
+            Interactive Computing (IC). She designs tools and activities focused
+            on solving real-world challenges through computational capabilities
+            that empower people and machines to affect the world around them.
+            She does research work in redefining the human experience of
+            computing and robotics environments. Her work helps support human
+            interactions with technology in areas such as artificial
+            intelligence, computational thinking, robotics, social and
+            human-centered computing, and human machine interactions.
           </p>
           <div className="bg-black text-white pt-8 pb-20">
             <div className="bg-black text-white p-4 md:p-12 flex justify-center pb-20">

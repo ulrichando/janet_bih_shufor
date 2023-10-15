@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Subscribe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -1,14 +1,21 @@
-import React from "react";
-
 const Sitemap = () => {
-  const pages = ["/", "/about", "/contact"]; // Add more pages as needed
+  const pages = [
+    "/",
+    "/about",
+    "/contact",
+    "/termsofuse",
+    "/privacypolicy",
+    "/cv",
+  ]; // Add more pages as needed
 
   const generateSitemapXML = () => {
     const sitemapEntries = pages.map((page, index) => {
-      return `<url>
-        <loc>https://example.com${page}</loc>
-        <priority>0.5</priority>
-      </url>`;
+      return `
+        <url key="${index}">
+          <loc>https://example.com${page}</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.5</priority>
+        </url>`;
     });
 
     return `<?xml version="1.0" encoding="UTF-8"?>
@@ -17,7 +24,14 @@ const Sitemap = () => {
       </urlset>`;
   };
 
-  return <pre>{generateSitemapXML()}</pre>;
+  return (
+    <div>
+      <h1>Sitemap</h1>
+      <pre>
+        <code>{generateSitemapXML()}</code>
+      </pre>
+    </div>
+  );
 };
 
 export default Sitemap;
