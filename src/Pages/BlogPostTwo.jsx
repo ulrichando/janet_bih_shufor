@@ -2,11 +2,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import janetImage from "../images/2.jpg";
 import Subscribe from "../components/Subscribe";
+import Sidenav from "../components/Sidenav";
 
 const BlogPostTwo = () => {
   return (
     <div>
       <Navbar />
+      <Sidenav />
       <section className="max-w-4xl mx-auto px-4 py-8">
         <img
           src={janetImage}
