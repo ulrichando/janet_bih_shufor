@@ -11,7 +11,10 @@ const BiographyAwardsSection = () => {
   };
 
   return (
-    <section className="bg-black py-50 p-3 text-white pt-40">
+    <section
+      style={sectionStyle}
+      className="bg-black py-50 p-3 text-white pt-40"
+    >
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>

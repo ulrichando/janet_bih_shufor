@@ -20,12 +20,12 @@ const Header = () => {
       }}
     >
       <button
-        className="text-4xl md:text-8xl text-white rounded-full absolute pb-10 md:pb-5"
+        className="text-4xl md:text-7xl text-white rounded-full absolute pb-10 md:pb-20"
         style={{
           top: "77%",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          "@media (max-width: 600px)": { top: "80%" },
+          "@media (max-width: 600px) and (max-width: 1024px)": { top: "80%" },
         }}
       >
         Welcome To My Portfolio Website

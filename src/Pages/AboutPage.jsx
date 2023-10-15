@@ -69,8 +69,8 @@ const AboutPage = () => {
                         Year
                       </th>
                       <th className="w-3/4 md:w-5/6 text-2xl md:text-4xl p-4">
-                        JANET BIH HAS PERFORMED AT <br /> THE WORLD'S LEADING
-                        THEATRE
+                        JANET BIH HAS PERFORMED AT <br /> THE WORLD&lsquo;S
+                        LEADING THEATRE
                       </th>
                     </tr>
                   </thead>

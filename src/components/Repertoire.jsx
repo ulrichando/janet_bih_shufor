@@ -71,7 +71,8 @@ const CombinedSectionComponent = () => {
               <tr>
                 <th className="w-1/4 text-xl p-4 text-[#E4CB86]">Year</th>
                 <th className="w-3/4 text-4xl p-4">
-                  JANET BIH HAS PERFORMED AT <br /> THE WORLD'S LEADING THEATRE
+                  JANET BIH HAS PERFORMED AT <br /> THE WORLD&lsquo;S LEADING
+                  THEATRE
                 </th>
               </tr>
             </thead>
