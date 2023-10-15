@@ -12,18 +12,18 @@ import image2 from "/src/images/2.jpg"; // Replace with your image paths
 function PublicationPage() {
   const blogPosts = [
     {
-      title: "Blog Post Title 1",
+      title: "Tech Review",
       excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.",
       image: image1,
-      readMoreLink: "#",
+      readMoreLink: "/blogpostone",
     },
     {
-      title: "Blog Post Title 2",
+      title: "NASA Updates",
       excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate.",
       image: image2,
-      readMoreLink: "#",
+      readMoreLink: "/blogposttwo",
     },
   ];
 

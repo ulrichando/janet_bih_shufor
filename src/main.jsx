@@ -10,6 +10,8 @@ import ResearchPage from "./Pages/ResearchPage";
 import Sitemap from "./Pages/Sitemap";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsOfUse from "./Pages/TermsOfUse";
+import BlogPostOne from "./Pages/BlogPostOne";
+import BlogPostTwo from "./Pages/BlogPostTwo";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -26,6 +28,8 @@ root.render(
       <Route path="privacypolicy" element={<PrivacyPolicy />} />
       <Route path="termsofuse" element={<TermsOfUse />} />
       <Route path="sitemap" element={<Sitemap />} />
+      <Route path="blogpostone" element={<BlogPostOne />} />
+      <Route path="blogposttwo" element={<BlogPostTwo />} />
     </Routes>
   </Router>
 );

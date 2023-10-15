@@ -1,5 +1,7 @@
 // src/components/BlogCard.js
 
+import PropTypes from "prop-types";
+
 const BlogCard = ({ image, title, excerpt, readMoreLink }) => {
   return (
     <div className=" rounded-lg shadow-lg p-5 mb-8 mx-4">
@@ -18,6 +20,13 @@ const BlogCard = ({ image, title, excerpt, readMoreLink }) => {
       </a>
     </div>
   );
+};
+
+BlogCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  excerpt: PropTypes.string.isRequired,
+  readMoreLink: PropTypes.string.isRequired,
 };
 
 export default BlogCard;
