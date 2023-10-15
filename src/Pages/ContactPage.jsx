@@ -15,7 +15,7 @@ const ContactPage = () => {
           Contact Me
         </h2>
 
-        <div className="flex flex-col md:flex-row justify-center w-full">
+        <div className="flex flex-col md:flex-row justify-center w-full pb-20">
           <img
             src={mapImage}
             alt="Map"

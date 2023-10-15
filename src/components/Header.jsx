@@ -1,5 +1,3 @@
-import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import backgroundImage from "../images/janet_bih_fofang2.jpg";
 
 const Header = () => {
