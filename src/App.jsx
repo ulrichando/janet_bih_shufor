@@ -7,7 +7,7 @@ import "./App.css";
 import Subscribe from "./components/Subscribe";
 import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navbar />
@@ -19,6 +19,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

@@ -4,7 +4,7 @@ import Sidenav from "../components/Sidenav";
 import Subscribe from "../components/Subscribe";
 import "/src/css/CvPage.css";
 
-const Cv = () => {
+const CvPage = () => {
   return (
     <div>
       <Navbar />
@@ -134,4 +134,4 @@ const Cv = () => {
   );
 };
 
-export default Cv;
+export default CvPage;
