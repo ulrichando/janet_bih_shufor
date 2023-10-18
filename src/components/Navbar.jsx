@@ -34,21 +34,21 @@ const Navbar = () => {
 
         <div className="items-center space-x-4 md:flex hidden">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/janet.fofang"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebook className="my-icon" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/janet.fofang"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter className="my-icon" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/janet.fofang"
             target="_blank"
             rel="noopener noreferrer"
           >
