@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Document, Page } from "react-pdf";
-import pdf from "../Pages/Janet_Shufor.pdf";
+import pdf from "../Docs/Janet_Shufor.pdf";
 import "/src/css/CvPage.css";
 
 function PDFviewer() {
