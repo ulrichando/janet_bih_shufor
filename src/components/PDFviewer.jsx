@@ -23,10 +23,13 @@ function PDFviewer() {
       setPageNumber(pageNumber + 1);
     }
   };
+  const preventContextMenu = (e) => {
+    e.preventDefault();
+  };
 
   return (
     <div className="pdf-div">
-      <div className="pdf-container">
+      <div className="pdf-container" onContextMenu={preventContextMenu}>
         <div>
           <p>
             Page {pageNumber} of {numPages}
