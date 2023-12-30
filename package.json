@@ -21,7 +21,7 @@
     "react-navigation": "^5.0.0",
     "react-pdf": "^7.5.1",
     "react-pdf-js": "^5.1.0",
-    "react-router-dom": "^6.16.0",
+    "react-router-dom": "^6.17.0",
     "react-to-pdf": "^1.0.1"
   },
   "devDependencies": {

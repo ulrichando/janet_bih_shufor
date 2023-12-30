@@ -10,9 +10,14 @@ const Subscribe = () => {
         <h2 className="text-3xl font-bold mb-6">Subscribe to our Newsletter</h2>
         <p className="mb-8">Stay updated with our latest news and updates.</p>
 
-        <form className="flex flex-col md:flex-row items-stretch w-full max-w-lg">
+        <form
+          className="flex flex-col md:flex-row items-stretch w-full max-w-lg"
+          name="sub"
+        >
           <input
             type="email"
+            name="email"
+            autoComplete="off"
             placeholder="Your Email"
             className="py-2 px-4 mb-4 md:mb-0 md:mr-2 rounded-lg w-full bg-white"
           />
